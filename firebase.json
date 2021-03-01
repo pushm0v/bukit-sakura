@@ -1,7 +1,6 @@
 {
-  "hosting": [{
-    "target": "kas",
-    "public": "kas/public",
+  "hosting": {
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -13,5 +12,5 @@
         "destination": "/index.html"
       }
     ]
-  }]
+  }
 }
